@@ -1,25 +1,27 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-body{ 
-    height: 100vh;
-    color:#fff;
+body {
+  height: 100vh;
+  color: #fff;
 }
 
-body, input, button, textarea {
-    font-size: 18px;
+:root {
+  font-size: 62.5%;
+}
+
+body,
+input,
+button,
+textarea {
+  /*font-size: 18px;
     line-height: 1;
     font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    */
+
+  font: 400 1.8rem/1 "Nunito", sans-serif;
 }
-
-#page-landing {
-    background: linear-gradient(329.54deg,#29b6d1 0%, #00c7c7 100%) no-repeat;
-
-
-    text-align: center;
-    min-height: 100vh;
-}
-
 
