@@ -32,6 +32,26 @@
 
 .animate-right {
     animation-name:right;
-    animation-duration:1000ms;
+    animation-duration:400ms;
 
+}
+
+
+/* animacao maps*/
+
+@keyframes appers {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+.animate-appers {
+    animation-name:appers;
+    animation-duration:500ms;
+    animation-fill-mode: backwards;
 }

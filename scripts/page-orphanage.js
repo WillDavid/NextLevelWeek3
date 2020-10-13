@@ -1,5 +1,13 @@
+const options = {
+    dragging:false,
+    touchZoom:false,
+    doubleClickZoom:false,
+    scrollWheelZoom:false,
+    zoomControl:false
+}
+
 // create map
-const map = L.map('mapid').setView([-3.10719, -60.0261], 16);
+const map = L.map('mapid', options).setView([-3.10719, -60.0261], 16);
 
 
 // create and add tileLayer
