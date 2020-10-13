@@ -1,3 +1,3 @@
 # NextLevelWeek3
 
-DIA 01
+Projeto realizado durante a Next Level Week #3, feito pela Rocketseat
