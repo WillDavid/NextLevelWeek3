@@ -36,3 +36,33 @@ const popup = L.popup({
 
 L.marker([-3.10719, -60.0261], {icon}).addTo(map)
     .bindPopup(popup)
+
+
+
+function selectImage(event) {
+    const button = event.currentTarget
+
+    //remover todas as classes ativas
+    const buttons = document.querySelectorAll(".images button")
+    buttons.forEach(removeActiveClass);
+
+
+    function removeActiveClass(button) {
+        button.classList.remove("active")
+    }
+
+    //Selecionar a imagem clicada del
+
+
+    const image = button.children[0]
+    const imageContainer = document.querySelector('.orphanage-details > img')
+
+    //Atualizar o container de imagem
+
+    imageContainer.src = image.src
+
+
+    // adicionar a classe .active para o botao
+
+    button.classList.add('active')
+}
