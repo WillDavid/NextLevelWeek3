@@ -26,10 +26,32 @@ map.on('click', (event) => {
     //remove icon
     marker && map.removeLayer(marker)
 
+    document.querySelector('[name=lat]').value = lat;
+    document.querySelector('[name=lng]').value = lng;
+
 
     // add icon later
     marker = L.marker([lat, lng], {icon}).addTo(map)
 })
 
 
+// Photos Upload - Campo de adicionar fotos
 
+function addPhotoField(){
+
+    // Pegar o container de fotos #images
+
+    const container = document.querySelector('#images');
+
+    // Pegar o container para duplicar .new-upload
+
+    const fieldsContainer = document.querySelectorAll('.new-upload');
+
+    // Realizar o clone da última imagem adicionada
+
+    const newFieldContainer = fieldsContainer[fieldsContainer.length - 1].cloneNode(true);
+
+    // Adicionar o clone ao container de #images
+
+    container.appendChild(newFieldContainer);
+}
