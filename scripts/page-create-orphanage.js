@@ -51,7 +51,38 @@ function addPhotoField(){
 
     const newFieldContainer = fieldsContainer[fieldsContainer.length - 1].cloneNode(true);
 
-    // Adicionar o clone ao container de #images
+    const input = newFieldContainer.children[0]
 
-    container.appendChild(newFieldContainer);
+    // Verificar se o campo está vazio
+    if(input.value == ""){
+        return 
+    }else {
+
+        // Limpar o campo antes de adicionar ao container
+        input.value = ""
+
+
+        // Adicionar o clone ao container de #images
+        
+        container.appendChild(newFieldContainer);
+    }
+  
+}
+
+
+function deleteField(event) {
+    const span = event.currentTarget
+    const fieldsContainer = document.querySelectorAll('.new-upload')
+
+    if(fieldsContainer.length <= 1) {
+        span.parentNode.children[0].value = ""
+        return
+    }else {
+        console.log("Cheguei aqui")
+
+
+        // Deletar o campo antes de adicionar
+        span.parentNode.remove();
+    }
+
 }
