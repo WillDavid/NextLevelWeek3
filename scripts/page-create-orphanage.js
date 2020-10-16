@@ -1,5 +1,5 @@
 // create map
-const map = L.map('mapid').setView([-3.10719, -60.0261], 16);
+const map = L.map('mapid2').setView([-3.10719, -60.0261], 16);
 
 
 // create and add tileLayer
@@ -84,5 +84,32 @@ function deleteField(event) {
         // Deletar o campo antes de adicionar
         span.parentNode.remove();
     }
+
+}
+
+
+
+// Sim ou não
+
+function toggleSelect(event){
+    // Retirar a class .active (dos botoes)
+    document.querySelectorAll('.button-select button').forEach(function(button){
+        button.classList.remove('active');
+    })
+
+    // Colocar a class .active nesse botao clicado
+
+    const button = event.currentTarget
+    button.classList.add('active')
+
+    // Atualizar o meu input hidden com o valor selecionado
+
+    const input = document.querySelector('[name="open_on_weekends"]')
+
+    // Pegar o botao clicado
+
+    input.value = button.dataset.value
+
+    // Verificar se sim ou nao
 
 }
