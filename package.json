@@ -1,0 +1,26 @@
+{
+  "name": "NextLevelWeek3",
+  "version": "1.0.0",
+  "description": "Projeto realizado durante a Next Level Week #3, feito pela Rocketseat",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WillDavid/NextLevelWeek3-Happy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WillDavid/NextLevelWeek3-Happy/issues"
+  },
+  "homepage": "https://github.com/WillDavid/NextLevelWeek3-Happy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "handlebars": "^4.7.6",
+    "hbs": "^4.1.1",
+    "nodemon": "^2.0.5"
+  }
+}
