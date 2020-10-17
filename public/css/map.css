@@ -11,6 +11,11 @@
     height: 28rem;
 }
 
+#mapid3 {
+    width:100%;
+    height: 28rem;
+}
+
 .map-container footer {
     padding:2rem 0;
     text-align:center;

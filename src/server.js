@@ -11,7 +11,10 @@ const pages = require('./pages');
 // Se torna um função
 // Iniciando Express
 const server = express()
-server.use(express.static('public'))
+server
+.use(express.urlencoded({extended: true}))
+
+.use(express.static('public'))
 
 
     // Configurar template Engine
@@ -24,6 +27,7 @@ server.use(express.static('public'))
 .get('/orphanage', pages.orphanage)
 .get('/orphanages', pages.orphanages)
 .get('/create-orphanage', pages.createOrphanage)
+.post('/save-orphanage', pages.saveOrphanage)
 
 
 
