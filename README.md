@@ -20,10 +20,10 @@
 <h2 align="left">:books: O que estudar agora?</h2>
 <p>Aprimorar os conhecimentos em HTML e CSS, recomendo um curso denominado: <strong> HTML5 e CSS3: Técnicas Avançadas (Com Flexbox e 5 Projetos)</strong></p>
 <a href="https://www.udemy.com/course/html5-e-css3-tecnicas-avancadas-com-flexbox-e-3-projetos/"><p><strong>Clique aqui para visualizar o curso</strong></p></a>
-<h3 align="left"> Minha nota pessoal do curso: :star: :star: :star: :star: :star: </h3>
+<h3 align="left">:see_no_evil: Minha nota pessoal do curso: :star: :star: :star: :star: :star: </h3>
 
-<h3 align="left"> Minha nota pessoal da Next Level Week da :rocket: Rocketseat: :star: :star: :star: :star: :star: </h3>
+<h3 align="left">:hear_no_evil: Minha nota pessoal da Next Level Week da :rocket: Rocketseat: :star: :star: :star: :star: :star: </h3>
 
-<h3 align="left"> Splash Art </h3>
+<h3 align="left">:art: Arte do produto </h3>
 <img src="https://i.ibb.co/8m3hT4x/Happy-Design.png">
 
