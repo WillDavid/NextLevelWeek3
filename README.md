@@ -23,3 +23,7 @@
 <h3 align="left"> Minha nota pessoal do curso: :star: :star: :star: :star: :star: </h3>
 
 <h3 align="left"> Minha nota pessoal da Next Level Week da :rocket: Rocketseat: :star: :star: :star: :star: :star: </h3>
+
+<h3 align="left"> Splash Art </h3>
+![Happy Design](https://user-images.githubusercontent.com/39386164/96639566-e39af880-12ef-11eb-920d-f61ec21e785a.png)
+
