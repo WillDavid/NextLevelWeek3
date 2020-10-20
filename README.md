@@ -25,5 +25,5 @@
 <h3 align="left"> Minha nota pessoal da Next Level Week da :rocket: Rocketseat: :star: :star: :star: :star: :star: </h3>
 
 <h3 align="left"> Splash Art </h3>
-<img src="../splash_art/happyDesign.png">
+<img src="https://ibb.co/K5Z1Rzs">
 
